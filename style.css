@@ -1,0 +1,17 @@
+ul {
+  list-style: none; /* Removes the default bullet points */
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center; /* Ensures the image and text are vertically aligned */
+  margin: 8px 0;
+}
+
+li i {
+  margin-right: 10px; /* Adds spacing between the image and the text */
+  color: #222020;
+  width: 15px; /* Set icon size */
+  height: 15px;
+}
